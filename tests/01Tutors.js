@@ -1,7 +1,10 @@
 module.exports = {
+  // key is the name of the test 
+  // anonymous function that sends it to the browser
   'Check Tutor Filter' : browser => {
     browser
       .url('https://austincodingacademy.com/tutors')
+      browser.pause(1000)
       .click('select')
       .click('option[value="austinDowntown"]')
       .click('input[type="text"]')

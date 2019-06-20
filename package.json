@@ -9,5 +9,22 @@
     "geckodriver": "^1.16.2",
     "nightwatch": "^1.1.10",
     "selenium-server-standalone-jar": "3.141.5"
-  }
+  },
+  "description": "![logo](http://en.gravatar.com/userimage/107370100/a08594145564536138dfaaf072c7b241.png)",
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarahcheatham/selenium-workshop.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/sarahcheatham/selenium-workshop/issues"
+  },
+  "homepage": "https://github.com/sarahcheatham/selenium-workshop#readme"
 }
